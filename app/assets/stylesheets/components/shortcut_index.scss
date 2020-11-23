@@ -1,0 +1,59 @@
+.shortcut-index-scroll {
+  border-top: 1px solid $even-lighter;
+  position: fixed;
+  top: 146px;
+  width: 455px;
+  height: 70%;
+  overflow-y: auto;
+}
+
+.shortcut-index-item {
+  position: relative;
+  height: 60px;
+}
+
+.shortcut-index-item .fa-minus-circle {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  color: $white;
+}
+
+.shortcut-index-text {
+  margin: 0 10px;
+  padding: 10px 0;
+  height: 40px;
+  border-bottom: 1px $even-lighter solid;
+  display: flex;
+  align-items: center;
+}
+
+.shortcut-index-text div {
+  display: flex;
+  align-items: center;
+}
+
+.shortcut-index-text .fa-file-text-o {
+  color: $darkest-grey;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.shortcut-index-text p {
+  font-family: $serif;
+  color: $darkest-grey;
+  font-size: 18px;
+}
+
+.shortcut-index-item:hover {
+  background-color: $green;
+  cursor: pointer;
+}
+
+.shortcut-index-item:hover p {
+  color: $white;
+}
+
+.shortcut-index-item:hover .fa-file-text-o {
+  color: $white;
+}

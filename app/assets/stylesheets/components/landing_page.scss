@@ -1,0 +1,113 @@
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: $white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.landing-header h1 {
+  color: $green;
+  font-family: $serif;
+  font-weight: bold;
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+.landing-nav {
+  display: flex;
+  color: $medium-grey;
+  font-family: $sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.landing-nav p {
+  padding: 10px;
+}
+
+.landing-nav p:hover {
+  color: $darkest-grey;
+  text-decoration: underline;
+}
+
+.main-video {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.middle-text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 40%;
+  height: 400px;
+  text-align: center;
+  font-weight: lighter;
+  color: $white;
+  font-family: $serif;
+}
+
+.middle-text h2 {
+  font-size: 40px;
+}
+
+.middle-text h3 {
+  font-size: 22px;
+}
+
+.middle-text p {
+  font-size: 13px;
+  padding: 3px;
+}
+
+.landing-button {
+  background-color: $white;
+  color: $dark-grey;
+  padding: 10px;
+  margin: 10px;
+  width: calc(100% - 40px);
+  border-radius: 3px;
+  font-family: $sans-serif;
+  font-size: 14px;
+}
+
+.landing-button.green {
+  background-color: $green;
+  color: $white;
+}
+
+.landing-button.white:hover {
+  background-color: $even-lighter;
+}
+
+.landing-button.green:hover {
+  background-color: $dark-green;
+}
+
+.mobile-fallback {
+  display: none;
+}
+
+.video.vsc-initialized {
+  width: 100%;
+}
+
+@media screen and (max-width: 1027px) {
+    .main-video {
+        width: 200%
+    }
+}

@@ -1,0 +1,96 @@
+.auth {
+  width: 350px;
+  margin: 0 auto;
+  font-family: $sans-serif;
+  padding-top: 50px;
+}
+
+.auth .logo {
+  margin: auto;
+  height: 60px;
+  width: 60px;
+}
+
+.auth-header {
+  text-align: center;
+  font-family: $serif;
+  font-weight: 100;
+  font-size: 35px;
+  color: $dark-grey;
+  padding: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  border: 1px $lightest-grey solid;
+  padding: 30px;
+  background-color: $white;
+}
+
+.demo-button, .auth-input {
+  width: 90%;
+  border: 1px $lightest-grey solid;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+.demo-button {
+  text-align: center;
+  color: $dark-grey;
+  margin-bottom: 30px;
+}
+
+.demo-button:hover {
+  cursor: pointer;
+}
+
+.auth-input:focus {
+  color: $darkest-grey;
+  border-color: #7AA7CF;
+}
+
+.auth-button {
+  width: 90%;
+  border-radius: 6px;
+  padding: 11px;
+  margin: 15px;
+  text-align: center;
+  background: $green;
+  color: $white;
+}
+
+.auth p {
+  text-align: center;
+  color: $medium-grey;
+  font-size: 12px;
+  margin: 30px 0 10px 0;
+}
+
+.auth-link {
+  display: block;
+  text-align: center;
+  color: $green;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.auth-errors {
+  background: $pink;
+  width: 96%;
+  border: 1px solid $light-red;
+  border-top: none;
+  box-sizing: border-box;
+}
+
+.auth-errors p {
+  color: $dark-red;
+  height: 30px;
+  margin: 0;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 15px;
+}

@@ -1,0 +1,62 @@
+.note-detail-section.new {
+  margin: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.new-note-buttons {
+  position: absolute;
+  right: 0;
+  padding: 15px;
+  font-family: $sans-serif;
+  font-weight: lighter;
+  font-size: 15px
+}
+
+.submit-note {
+  padding: 6px 18px;
+  background-color: $green;
+  border-radius: 6px;
+  color: $white;
+}
+
+.submit-note:hover {
+  cursor: pointer;
+  background-color: $dark-green;
+}
+
+.cancel-note {
+  padding: 6px 18px;
+  border-radius: 6px;
+  color: $medium-grey;
+  border: 1px $lightest-grey solid;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.cancel-note:hover {
+  cursor: pointer;
+  color: $green;
+  border-color: $green;
+}
+
+.new .note-detail-text {
+  width: 90%;
+  position: absolute;
+  top: 95px;
+  overflow-y: auto;
+}
+
+.new .toolbar i {
+  font-size: 23px;
+  padding-right: 15px;
+}
+
+.new .format-bar {
+  width: 90%;
+}
+
+.new .notebook-selector-button {
+  width: 25px;
+}

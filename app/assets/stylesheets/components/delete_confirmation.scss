@@ -1,0 +1,25 @@
+.delete-confirmation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  z-index: 1000;
+}
+
+.confirmation-text {
+  font-family: $serif;
+  font-size: 30px;
+  padding: 60px 0 80px 0;
+}
+
+.delete-confirmation i {
+  color: $light-grey;
+  font-size: 35px;
+}

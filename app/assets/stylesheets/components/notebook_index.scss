@@ -1,0 +1,80 @@
+.index-header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-family: $sans-serif;
+  padding: 20px 23px 10px 23px;
+}
+
+.index-header h3 {
+  font-weight: lighter;
+  color: $medium-grey;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.index-header i {
+  padding: 0;
+  color: $dark-grey;
+}
+
+.index-header i:hover {
+  cursor: pointer;
+}
+
+.notebook-index-scroll {
+  border-top: 1px solid $even-lighter;
+  position: fixed;
+  top: 146px;
+  width: 455px;
+  height: 70%;
+  overflow-y: auto;
+}
+
+.notebook-index-item {
+  position: relative;
+  height: 60px;
+}
+
+.notebook-index-tools {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  color: $white;
+}
+
+.notebook-index-text {
+  margin: 0 10px;
+  padding: 10px 0;
+  height: 40px;
+  border-bottom: 1px $even-lighter solid;
+}
+
+.notebook-index-text h5 {
+  margin: 0;
+  font-family: $serif;
+  color: $darkest-grey;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.notebook-index-text p {
+  font-family: $sans-serif;
+  font-size: 11px;
+  padding: 5px 10px;
+  color: $medium-grey;
+}
+
+.notebook-index-item:hover {
+  background-color: $green;
+  cursor: pointer;
+}
+
+.notebook-index-item:hover h5 {
+  color: $white;
+}
+
+.notebook-index-item:hover p {
+  color: $white;
+}

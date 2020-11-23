@@ -1,0 +1,65 @@
+.toolbar {
+  color: $light-grey;
+  padding: 8px 12px;
+}
+
+.toolbar i:hover {
+  color: $green;
+  cursor: pointer;
+}
+
+.toolbar .green {
+  color: $green;
+}
+
+.note-detail-section {
+  margin-left: 427px;
+  background-color: $white;
+  position: absolute;
+  height: 100%;
+  width: 62%;
+}
+
+.note-detail-text {
+  padding: 10px 50px;
+}
+
+.note-detail-text h2 {
+  font-family: $serif;
+  font-size: 30px;
+  color: $green;
+  padding-bottom: 10px;
+}
+
+.note-detail-text input {
+  width: 100%;
+}
+
+.note-detail-text input::-webkit-input-placeholder {
+  color: $green;
+}
+
+.public-DraftStyleDefault-ltr {
+  font-family: $sans-serif;
+  font-size: 15px;
+}
+
+.ul-block-style {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+.ol-block-style {
+  padding: 0;
+  margin: 0;
+}
+
+.checkable-list-item-block__text {
+  margin-left: 30px;
+}
+
+.checkable-list-item-block__checkbox {
+  position: absolute;
+  margin-top: 2px;
+  width: 80%;
+}

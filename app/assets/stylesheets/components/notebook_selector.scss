@@ -1,0 +1,89 @@
+.notebook-selector-button {
+  display: flex;
+  color: $darkest-grey;
+  font-family: $sans-serif;
+  font-size: 13px;
+}
+
+.notebook-selector-button:hover {
+  color: $green;
+}
+
+.notebook-selector-button i {
+  color: $light-grey;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.notebook-selector-button p {
+  padding: 0 10px 0 5px;
+}
+
+.selector-scroll {
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  max-height: 400px;
+  width: 350px;
+  overflow-y: auto;
+  background-color: $white;
+  border: 2px $even-lighter solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 50;
+}
+
+.selector-header {
+  height: 50px;
+  font-family: $sans-serif;
+  font-size: 14px;
+}
+
+.selector-header-text {
+  margin: 0 15px;
+  border-bottom: 1px $even-lighter solid;
+  height: 100%;
+  box-sizing: border-box;
+  color: $light-grey;
+}
+
+.selector-header-text p {
+  padding: 23px 0 0 10px;
+}
+
+.notebook-selector-item {
+  height: 50px;
+  color: $darkest-grey;
+  font-family: $serif;
+  font-size: 14px;
+}
+
+.notebook-selector-item:hover {
+  background-color: $green;
+  color: $white;
+  cursor: pointer;
+}
+
+.notebook-selector-item:hover .notebook-selector-text {
+  border-color: $green;
+}
+
+.notebook-selector-text {
+  margin: 0 15px;
+  border-bottom: 1px $even-lighter solid;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.notebook-selector-text p {
+  padding-left: 8px;
+}
+
+.active-text {
+  color: $green;
+}
+
+.notebook-selector-item:hover .active-text {
+  color: $white;
+}

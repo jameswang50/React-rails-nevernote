@@ -1,0 +1,69 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 75px;
+  height: 100%;
+  border-right: 1px $lightest-grey solid;
+  background-color: $background;
+  z-index: 15;
+}
+
+.sidebar .logo {
+  margin: 15px 0 50px;
+}
+
+.green-nav {
+  margin-top: 40px;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.nav-circle {
+  border: 1px $lightest-grey solid;
+  border-radius: 50%;
+  margin: 13px;
+  background-color: $white;
+  color: $green;
+  -webkit-text-stroke: 1px $white;
+}
+
+.nav-circle-2 {
+  border: 1px $background solid;
+  border-radius: 50%;
+  margin: 13px;
+  color: $green;
+}
+
+.nav-circle:hover, .nav-circle-2:hover {
+  border-color: $green;
+  background-color: $green;
+  color: $white;
+  cursor: pointer;
+}
+
+.nav-circle:hover {
+  -webkit-text-stroke: 1px $green;
+}
+
+.account-square {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 1px $lightest-grey solid;
+  width: inherit;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-button {
+  border: 1px $green solid;
+}

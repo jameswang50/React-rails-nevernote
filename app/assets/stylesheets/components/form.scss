@@ -1,0 +1,77 @@
+.new {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.new i {
+  font-size: 35px;
+  color: $light-grey;
+}
+
+.new-header {
+  font-family: $sans-serif;
+  font-size: 15px;
+  color: $medium-grey;
+  padding: 15px;
+  border-bottom: 1px $even-lighter solid;
+}
+
+.new-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-input {
+  font-size: 30px;
+  font-family: $serif;
+  text-align: center;
+  padding: 60px 0 70px 0;
+}
+
+.new-input::-webkit-input-placeholder {
+  color: $lightest-grey;
+}
+
+.new-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.new-button {
+  width: 185px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px $green solid;
+  text-align: center;
+  font-family: $sans-serif;
+  font-size: 15px;
+}
+
+.new-button.submit {
+  background-color: $green;
+  color: $white;
+}
+
+.new-button.submit:hover {
+  cursor: pointer;
+  background-color: $dark-green;
+}
+
+.new-button.cancel {
+  background-color: $even-lighter;
+  color: $dark-grey;
+  border: 1px solid $lightest-grey;
+}
+
+.new-button.cancel:hover {
+  cursor: pointer;
+  background-color: $lightest-grey;
+}

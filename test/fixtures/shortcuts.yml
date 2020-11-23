@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: shortcuts
+#
+#  id         :integer          not null, primary key
+#  name       :string           not null
+#  route      :string           not null
+#  author_id  :integer          not null
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  route: MyString
+  author_id: 1
+
+two:
+  name: MyString
+  route: MyString
+  author_id: 1

@@ -1,0 +1,40 @@
+.logout-modal {
+  bottom: 5px;
+}
+
+.logout-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  margin: 0 9px 0 35px;
+  border-bottom: 1px solid $even-lighter;
+  font-family: $sans-serif;
+  font-size: 20px;
+  font-color: $dark-grey;
+}
+
+.username {
+  font-weight: normal;
+}
+
+.logout-button {
+  display: flex;
+  margin: 10px 10px 0 35px;
+  padding-left: 5px;
+  align-items: center;
+  font-family: $sans-serif;
+  color: $darkest-grey;
+  height: 40px;
+  font-size: 15px;
+}
+
+.logout-button:hover {
+  background-color: $green;
+  color: $white;
+  cursor: pointer;
+}
+
+.logout-button i {
+  font-size: 16px;
+}

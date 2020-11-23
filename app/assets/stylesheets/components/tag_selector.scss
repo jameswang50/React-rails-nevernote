@@ -1,0 +1,23 @@
+.tag-selector-button i {
+  color: $light-grey;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.selector-scroll.tag {
+  left: 100px;
+}
+
+.tag-index-text.selector {
+  margin: 20px 250px 0 20px;
+}
+
+.tag-index-text.selector:last-child {
+  margin-bottom: 30px;
+}
+
+.active-tag {
+  background-color: $green;
+  border-color: $green;
+  color: $white;
+}

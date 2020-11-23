@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: $white;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+#root>div {
+  height: 100%;
+}
+
+.green-bar {
+  width: 100%;
+  background: $green;
+  height: 4px;
+}
+
+.background {
+  background-color: $background;
+  height: 110%;
+}
+
+.video-frame video {
+  width: 100%;
+}
+
+.focus-area {
+  height: 200px;
+}
+
+.focus-area:hover {
+  cursor: text;
+}
